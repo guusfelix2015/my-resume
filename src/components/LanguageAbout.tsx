@@ -17,7 +17,7 @@ export function LanguageAbout() {
           lógico e resolução de problemas.
           <br />
         </p>
-        <h2 id="journey">Minhar Jornada</h2>
+        <h2 id="journey">Minha Jornada</h2>
         <p>
           Atualmente, trabalho como Desenvolvedor FullStack no ecosistema de
           JavaScript, com foco em React e Node.js. No meu dia a dia utilizo
