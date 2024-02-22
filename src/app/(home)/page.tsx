@@ -16,7 +16,7 @@ export default function Home() {
             alt=""
             width={400}
             height={400}
-              className="h-24 w-24 rounded-lg object-contain"
+            className="h-24 w-24 rounded-lg object-contain"
           />
           <div className="flex flex-col gap-1">
             <h1 className=" text-3xl font-bold text-zinc-200">Gustavo Felix</h1>
