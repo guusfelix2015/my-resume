@@ -101,6 +101,18 @@ export const StacksOverlay = () => {
             alt="Styled Components Logo"
           />
         </div>
+        <div
+          title="GraphQl"
+          className="group flex h-16 w-full items-center justify-center rounded-lg bg-zinc-900  px-6 py-3 duration-150 ease-out  hover:scale-105 hover:bg-zinc-200"
+        >
+          <Image
+            src="/logos-port/graphql-icon.svg"
+            width={42}
+            height={42}
+            className="h-full w-max  object-contain invert saturate-0 duration-150 ease-out group-hover:invert-0 group-hover:saturate-100"
+            alt="GraphQl Logo"
+          />
+        </div>
       </div>
     </div>
   )
