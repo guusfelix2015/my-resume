@@ -17,11 +17,19 @@ export const portfolio = {
   ],
   stats: [
     { value: '4+', label: 'anos de experiência com JavaScript e TypeScript' },
-    { value: '2M+', label: 'estudantes impactados em projetos estratégicos' },
-    { value: 'R$600k+', label: 'TPV alcançado em 6 meses no TheBank' },
     {
-      value: '70k+',
-      label: 'usuários atendidos em plataformas de alta escala',
+      value: 'React',
+      label:
+        'arquitetura frontend, interfaces escaláveis e design de sistemas web',
+    },
+    {
+      value: 'Node.js',
+      label: 'APIs robustas, integrações e evolução sustentável de backend',
+    },
+    {
+      value: 'Full Stack',
+      label:
+        'atuação ponta a ponta em produto, frontend, backend e experiência',
     },
   ],
   strengths: [
