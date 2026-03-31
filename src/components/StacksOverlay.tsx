@@ -4,7 +4,7 @@ export const StacksOverlay = () => {
   return (
     <div className="relative flex w-full flex-col items-start justify-start gap-6 self-start">
       <h2 className=" text-xl font-bold text-emerald-500">🔥 Minhas Stacks</h2>
-      <div className="grid h-full w-full flex-1 grid-cols-3 items-start justify-center gap-4 ">
+      <div className="grid size-full flex-1 grid-cols-3 items-start justify-center gap-4 ">
         <div
           title="React"
           className="group flex h-16 w-full items-center justify-center rounded-lg bg-zinc-900  px-6 py-3 duration-150 ease-out  hover:scale-105 hover:bg-zinc-200"

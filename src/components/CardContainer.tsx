@@ -135,7 +135,7 @@ export const CardContainer = ({
               </p>
             </div>
           </div>
-          <div className="flex h-full w-full flex-row items-start justify-start gap-4 md:max-w-[220px] md:flex-col">
+          <div className="flex size-full flex-row items-start justify-start gap-4 md:max-w-[220px] md:flex-col">
             <a
               href={link}
               draggable={false}

@@ -3,7 +3,53 @@
 @tailwind utilities;
 
 @layer base {
-  h1, h2, h3, h4, h5, h6, p, a, li, span, div, input, button {
-    @apply selection:bg-emerald-400 selection:text-zinc-950 antialiased
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    @apply bg-zinc-950;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-300 antialiased;
+    background-image: radial-gradient(
+        circle at top,
+        rgba(16, 185, 129, 0.1),
+        transparent 22%
+      ),
+      linear-gradient(to bottom, rgba(24, 24, 27, 0.98), rgba(9, 9, 11, 1));
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li,
+  span,
+  div,
+  input,
+  button {
+    @apply selection:bg-emerald-400 selection:text-zinc-950;
+  }
+
+  * {
+    @apply border-zinc-800;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-zinc-950;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-zinc-800;
   }
 }
