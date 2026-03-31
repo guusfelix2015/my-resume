@@ -1,0 +1,82 @@
+[     508ms] [LOG] %c
+▲
+
+    ____                               _ __
+   / __ \________  ____ _____ ___     (_) /_
+  / / / / ___/ _ \/ __ `/ __ `__ \   / / __/
+ / /_/ / /  /  __/ /_/ / / / / / /  / / /__
+/_____/_/   \___/\__,_/_/ /_/ /_/  /_/\__( )
+   _____ __    _          _ __           |/
+  / ___// /_  (_)___     (_) /_
+  \__ \/ __ \/ / __ \   / / __/
+ ___/ / / / / / /_/ /  / / /_
+/____/_/ /_/_/ .___/  /_/\__/
+            /_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/04gr846c57m0x.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:72
+[     871ms] [WARNING] iso_swr: SSR fetch failed for "/api/v2/teams/guusfelix2015s-projects" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/guusfelix2015s-projects/my-resume:242
+[     871ms] [WARNING] iso_swr: SSR fetch failed for "/api/v6/deployments?limit=10&projectId=my-resume&rollbackCandidate=true&teamId=guusfelix2015s-projects" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/guusfelix2015s-projects/my-resume:242
+[     884ms] [WARNING] iso_swr: SSR fetch failed for "/api/v9/projects/my-resume?activeBranches=1&latestDeployments=1&rollbackInfo=true&teamId=guusfelix2015s-projects" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/guusfelix2015s-projects/my-resume:264
+[    1140ms] [WARNING] iso_swr: SSR fetch failed for "/dashboard/projects/my-resume/production-checklist?teamId=guusfelix2015s-projects" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/guusfelix2015s-projects/my-resume:296
+[    1140ms] [WARNING] iso_swr: SSR fetch failed for "/api/v6/deployments?limit=10&projectId=my-resume&state=INITIALIZING%2CREADY%2CERROR%2CBUILDING%2CQUEUED&target=preview&teamId=guusfelix2015s-projects" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/guusfelix2015s-projects/my-resume:296
+[    1355ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/api/v2/teams/guusfelix2015s-projects" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/_next/static/chunks/1ck0tks07kp0i.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2
+[    1587ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v1/dashboard/projects/my-resume?teamId=guusfelix2015s-projects:0
+[    1587ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v2/teams/guusfelix2015s-projects:0
+[    1587ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v1/notifications/push:0
+[    1638ms] [ERROR] CustomFetchError: The request is missing an authentication token
+    at f (https://vercel.com/_next/static/chunks/3m14nch_xb7n8.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:39655) @ https://vercel.com/_next/static/chunks/04gr846c57m0x.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:102
+[    1683ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    1687ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/dashboard/projects/my-resume/activity?teamId=guusfelix2015s-projects:0
+[    1694ms] [ERROR] The script resource is behind a redirect, which is disallowed. @ :0
+[    1725ms] [ERROR] TypeError: A network error has occurred. Please check your connection and try again.
+    at w (https://vercel.com/_next/static/chunks/1irckqga_isf5.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:21:6787)
+    at async https://vercel.com/_next/static/chunks/227dbnc42zlf-.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:5269
+    at async https://vercel.com/_next/static/chunks/2oxwae3dxhw3p.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:11213 @ https://vercel.com/_next/static/chunks/227dbnc42zlf-.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:1
+[    1725ms] [ERROR] TypeError: A network error has occurred. Please check your connection and try again.
+    at w (https://vercel.com/_next/static/chunks/1irckqga_isf5.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:21:6787)
+    at async https://vercel.com/_next/static/chunks/227dbnc42zlf-.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:5269
+    at async https://vercel.com/_next/static/chunks/2oxwae3dxhw3p.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:11213 @ https://vercel.com/_next/static/chunks/227dbnc42zlf-.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:1
+[    1725ms] [LOG] Ignored request error TypeError: A network error has occurred. Please check your connection and try again.
+    at w (https://vercel.com/_next/static/chunks/1irckqga_isf5.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:21:6787)
+    at async revalidateIfStale (https://vercel.com/_next/static/chunks/3mcekqhr0mj_r.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:32222)
+    at async https://vercel.com/_next/static/chunks/2oxwae3dxhw3p.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2:11213 @ https://vercel.com/_next/static/chunks/261s5ja399ee6.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:38
+[    1784ms] [LOG] %c
+▲
+
+__  __                                     _            __
+\ \/ /___  __  __   _________ _____       (_)_  _______/ /_
+ \  / __ \/ / / /  / ___/ __ `/ __ \     / / / / / ___/ __/
+ / / /_/ / /_/ /  / /__/ /_/ / / / /    / / /_/ (__  ) /_
+/_/\____/\__,_/   \___/\__,_/_/ /_/  __/ /\__,_/____/\__/
+         __    _          __  __    /___/
+   _____/ /_  (_)___     / /_/ /_  (_)___  ____ ______
+  / ___/ __ \/ / __ \   / __/ __ \/ / __ \/ __ `/ ___/
+ (__  ) / / / / /_/ /  / /_/ / / / / / / / /_/ (__  )
+/____/_/ /_/_/ .___/   \__/_/ /_/_/_/ /_/\__, /____/
+            /_/                         /____/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/04gr846c57m0x.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:72
+[    2500ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/chunks/1ruoyjxdqgkds.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:18
+[    2541ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    2718ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://vercel.com/_next/static/chunks/1ruoyjxdqgkds.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:16
+[    2719ms] [ERROR] Not signed in with the identity provider. @ https://vercel.com/login?next=%2Fguusfelix2015s-projects%2Fmy-resume:0
+[    3550ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://vercel.com/_next/static/chunks/1ck0tks07kp0i.js?dpl=dpl_3SWsqrdQKD4RYAMA38H82He1VUeU:2
+[    3577ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.sentry.io/api/1323670/envelope/?sentry_key=d00780d432ac4ccf882f60dd02062e14&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[    4881ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-2128881739%3A1774984188432104&client_id=258013614557-nema0dumfbottebi6to7aqi85qot9pvs.apps.googleusercontent.com&o2v=2&redirect_uri=https%3A%2F%2Fvercel.com%2Fapi%2Fregistration%2Fgoogle%2Fcallback&response_type=code&scope=openid+profile+email&service=lso&state=f6d3dd02fea74c38774571f5354d5452699f377af2fa7b76303de624117a3e2b1aa3d04ca441b1209f4203445900e30363e387bd464020137b23b47b28ccd24bc0e6d390af609cdf5b705ae8c1a8d32f6a70fcd752c1f158a6fb5bfd59f2337098cae1c352031c73c5b9d422a28d8bed03c4bd0dc3740d9eeb42cab17cccc13240845d84f52f40a7014b6cea443bc5f59862924d59e5cd70f8acd1d6d71fb6062730aa0d9701bcd7fac25552bb59d9ec1f4fef83d2e6a293e1c76a8df9e48527261595316154c8b6f542f6f27a59be24c14cef413febafc0be35e00a32c8e52a299e33a6f51520e3b9783fd3c69cfe20ad5c9341748b2e4afc8c76eeec116afa8cb4aa948aedcadc43b36f70a39707a4166243245778550ff3b12574f2fb34e3148f0b58ffb31c67127ead98e5fcca5362aa10d4a8c4bc4c3035d91585482adc340e6c344fe57c6742ad435f7434ce3b68429420dbf487afd293ea0925786ad8a41b8c319d1fa465b7213a263b5b18fac3cfdca8c45b8a26e26686dbec5c0567510f9fc6609609b3a188462e0dfc6b69d9b6c26b431be1d1995aed5028b93bd4f7854d6bd6&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMxDNxeb15XszKMW_BxivgwKuh_bq0UOnTRZjqRfE05ZuFE07MdjjJrteWpMF7Cwug13dBfigIAoTstvu1uG0rs-GispKdcQE5BlSdMy9CTqH37IIA6B8FNglJj8CiniSkcxcpnpNyqzO9rTcFyS-BNJ4PKsu3pLIulDDHPhu0JH3BQZcVIagQxDwU3yX8XjEU8CmoROmuA1kYnr8JDsjmfuy6u-yrzphHtriXPOkS4zZ6trPctITtN8JzBlFlB6-L8MvE7lR5RyTGrV19rTR1avFYfbz6LgWQoKeG4Gm9pjcEi-SA7AxU346wvjinIpYTldNL6BfC9Kd44OUp4P2BhFjlxG1xRPRGdeyTb-k2HyzGY-_T98BKNmxCtc9f67zJtUfNAU2_nMob7kQlA56tWm__UPts-a6lgTqB_GzrOsxB77bIF_8_Ru-ge34cPC6dTHccQhyLQnxUK_F9yIttYPTZ8OA%26flowName%3DGeneralOAuthFlow%26as%3DS-2128881739%253A1774984188432104%26client_id%3D258013614557-nema0dumfbottebi6to7aqi85qot9pvs.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fvercel.com&rart=ANgoxcfPihh8T4rKMNe-539GcReau3oYNvA5JzzWoNjMT21VPDMHQjCOQTfVRXifL7hBzJ0ZASKOOQ8la03hVkY-ocR47u6dIxBx6WyQZ5MA6TsMmZFXAvM:0
+[    4884ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; AVISO @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.pt_BR.r9Cbn9cd86I.es5.O/am=Kf4GAACiCCQDYPj_DxkACIAgGrieBaAJRAYAAAAAAAAAAKwQACCN/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlED3BlBrxaTEgj_GRfhdbkbfttrvg/dti=1/m=_b,_tp:467
+[    4884ms] [LOG] %c%s font-size: 18px; O uso deste console pode permitir que invasores falsifiquem sua identidade para roubar informações por meio de um ataque chamado Self-XSS.
+Não insira nem cole códigos que você não conheça. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.pt_BR.r9Cbn9cd86I.es5.O/am=Kf4GAACiCCQDYPj_DxkACIAgGrieBaAJRAYAAAAAAAAAAKwQACCN/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlED3BlBrxaTEgj_GRfhdbkbfttrvg/dti=1/m=_b,_tp:467

@@ -33,11 +33,36 @@ export const portfolio = {
     },
   ],
   strengths: [
-    'Arquitetura frontend com React, Next.js, Vite e micro-frontends',
-    'APIs e serviços com Node.js, NestJS e TypeScript',
-    'Modernização de sistemas legados com foco em performance e manutenção',
-    'Boas práticas de engenharia, testes, componentização e qualidade de código',
-    'Experiência com produtos SaaS, educação, finanças e plataformas internas',
+    {
+      title: 'Arquitetura frontend',
+      description:
+        'React, Next.js, Vite e micro-frontends para interfaces escaláveis.',
+    },
+    {
+      title: 'Backend e integrações',
+      description:
+        'Node.js, NestJS e TypeScript em APIs robustas e sustentáveis.',
+    },
+    {
+      title: 'Modernização de legado',
+      description:
+        'Refatoração orientada a performance, manutenção e evolução segura.',
+    },
+    {
+      title: 'Qualidade de engenharia',
+      description:
+        'Testes, componentização, consistência técnica e boas práticas.',
+    },
+    {
+      title: 'Contexto de produto',
+      description:
+        'Experiência com SaaS, educação, finanças e plataformas internas.',
+    },
+    {
+      title: 'Colaboração e entrega',
+      description:
+        'Atuação próxima de produto, design, suporte e times multidisciplinares.',
+    },
   ],
   experience: [
     {
@@ -45,6 +70,8 @@ export const portfolio = {
       role: 'Desenvolvedor Full Stack - Pleno',
       period: 'Jun 2025 - Atual',
       location: 'São Paulo, Brasil',
+      summary:
+        'Atuação em plataforma financeira com microsserviços, micro-frontends e evolução de backend em ambiente de alta exigência técnica.',
       technologies: [
         'Node.js',
         'TypeScript',
@@ -73,6 +100,8 @@ export const portfolio = {
       role: 'Desenvolvedor Frontend - Pleno',
       period: 'Jul 2023 - Jul 2025',
       location: 'São Paulo, Brasil',
+      summary:
+        'Contribuição em produtos educacionais e financeiros com foco em escala, internacionalização e arquitetura frontend.',
       technologies: [
         'Next.js',
         'Vite',
@@ -97,6 +126,8 @@ export const portfolio = {
       role: 'Desenvolvedor Full Stack - Pleno',
       period: 'Mar 2023 - Ago 2024',
       location: 'Brasil',
+      summary:
+        'Entrega de plataformas de alta escala com forte atuação em produto, permissões, integrações financeiras e gestão operacional.',
       technologies: [
         'React',
         'NestJS',
@@ -121,6 +152,8 @@ export const portfolio = {
       role: 'Desenvolvedor Frontend - Pleno',
       period: 'Jan 2023 - Jul 2023',
       location: 'Belo Horizonte, MG, Brasil',
+      summary:
+        'Evolução de produto digital com foco em conversão, clareza de interface e automação de contratação.',
       technologies: ['Next.js', 'TypeScript', 'MUI', 'Zustand', 'REST API'],
       highlights: [
         'Manutenção e evolução de sistema de comparação de planos de internet.',
@@ -133,6 +166,8 @@ export const portfolio = {
       role: 'Desenvolvedor Frontend',
       period: 'Set 2022 - Jan 2023',
       location: 'Brasil',
+      summary:
+        'Atuação em aplicações e landing pages com foco em entrega rápida, correções e evolução contínua.',
       technologies: ['React', 'Next.js', 'TypeScript', 'Angular'],
       highlights: [
         'Construção de aplicações em múltiplos frameworks e stacks frontend.',
@@ -142,22 +177,26 @@ export const portfolio = {
     },
   ],
   stacks: [
-    'React',
-    'Next.js',
-    'TypeScript',
-    'JavaScript',
-    'Node.js',
-    'NestJS',
-    'Vite',
-    'Tailwind CSS',
-    'Styled Components',
-    'Chakra UI',
-    'GraphQL',
-    'PostgreSQL',
-    'Prisma',
-    'React Query',
-    'Docker',
-    'Vitest',
+    { name: 'React', logo: '/logos-port/react.svg' },
+    { name: 'Next.js', logo: '/logos-port/next.svg' },
+    { name: 'TypeScript', logo: '/logos-port/types.svg' },
+    { name: 'Node.js', logo: '/logos-port/node.svg' },
+    { name: 'Tailwind CSS', logo: '/logos-port/tailwind.svg' },
+    { name: 'Styled Components', logo: '/logos-port/styled-components.svg' },
+    { name: 'GraphQL', logo: '/logos-port/graphql-icon.svg' },
+    { name: 'Prisma', logo: '/logos-port/prisma.svg' },
+    { name: 'React Query', logo: '/logos-port/react-query.svg' },
+    { name: 'NestJS', logo: undefined },
+    { name: 'Vite', logo: undefined },
+    { name: 'Angular', logo: undefined },
+    { name: 'Python', logo: undefined },
+    { name: 'JavaScript', logo: undefined },
+    { name: 'SQL', logo: undefined },
+    { name: 'PostgreSQL', logo: undefined },
+    { name: 'Chakra UI', logo: undefined },
+    { name: 'Docker', logo: undefined },
+    { name: 'Jest', logo: undefined },
+    { name: 'Vitest', logo: undefined },
   ],
   education: {
     title: 'Bacharelado em Engenharia',
